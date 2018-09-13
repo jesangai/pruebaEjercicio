@@ -11,10 +11,10 @@ var formidable = require('formidable'),
 var cookieSession = require('cookie-session');
 //conexion base de datos
 pg.defaults.ssl = true;
-//const connectionString = process.env.DATABASE_URL || 'postgres://ec2-184-72-247-70.compute-1.amazonaws.com:5432/d4iiq2fmt7j93l';
-//var conString = "postgres://mcnhumzbkkfqgv:0919c6de2e7e75d9b13e08c67b58d1cbf1218f08d49a8874306d0ea0954cbfb1@ec2-184-72-247-70.compute-1.amazonaws.com:5432/d4iiq2fmt7j93l";
-const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/prueba';
-var conString = "postgres://postgres:postgres@localhost:5432/prueba";
+const connectionString = process.env.DATABASE_URL || 'postgres://ec2-107-21-233-72.compute-1.amazonaws.com:5432/dcro6h6mj85lib';
+var conString = "postgres://htpmwgkwajhiex:c4acc925b9637807828b44a30e3ff71a27e8f65c1300910bf31cdcc4bd9a0763@ec2-107-21-233-72.compute-1.amazonaws.com:5432/dcro6h6mj85lib";
+//const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/prueba';
+//var conString = "postgres://postgres:postgres@localhost:5432/prueba";
 
 //var conString = "postgres://ouotpxpfgzvdif:14f8728c627f11f8a487cdf5a21b6625efcf196a70f03529ebacd6aa9468c80e@ec2-54-163-249-237.compute-1.amazonaws.com:5432/df2rtm1mo3h4vl";
 
