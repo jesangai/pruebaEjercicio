@@ -1,0 +1,42 @@
+<body >
+    
+  
+ <header>
+  
+    <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav >
+                    <div class="container-fluid row">
+                          <div class="col-md-6 col-sm-6">
+                            <a class="navbar-brand" href="/">
+                              <img id="imgLogo" src="../images/logo1.png" alt="Logo">
+                            </a>
+                          </div>
+                           
+                          <div class="col-md-4 col-sm-4">
+                            
+                            <a href="/iniciarsesion"><img id="imgLogo" width='100px' src="../images/login.png" alt="Logo"></a>
+                          </div>
+                         
+                    </div>
+                </nav>
+              </div>
+            </div>
+        </div>
+    </header><br><br><br>
+
+        <!-- section Start -->
+       <section id="feature">
+          <div class="row">
+            <div class="col-md-6 col-sm-6" >
+                <a href="/listarexcursionesAlumno"> <button id="btnleer">EXCURSIONES</button></a>
+            </div>
+            <div class="col-md-6 col-sm-6" >
+                <a href="/listarmascotasAlumno"> <button id="btnleer">MASCOTAS</button></a>
+            </div>
+  
+          </div>
+     </section>
+      
+    </body>

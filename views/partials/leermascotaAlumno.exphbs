@@ -1,0 +1,43 @@
+<body onload="cargarmascotaalumno()">
+    <header>
+    <div id="poneraudios" style="display:none"></div>
+            <div class="container">
+              <div class="row">
+              <div class="col-md-4 col-sm-4">
+                    <a class="navbar-brand" href="/">
+                      <img id="imgLogo" src="../images/logo1.png" alt="Logo">
+                    </a>
+                 </div>
+                <div class="col-md-4 col-sm-4">
+                    <img id="avatar" src="" width="100px" alt="Logo">
+                    <h1 id="nombre"></h1>
+                 </div>
+                 
+                 <div class="col-md-2 col-sm-2">
+                    <h2>Puntaje</h2>
+                    <h1 id="puntaje"></h1>
+                 </div>
+                 <div class="col-md-2 col-sm-2">
+                    <a class="navbar-brand" href="/listarmascotasAlumno" id="regresar"><img id="imgLogo" width='80px' src="../images/flecha.png" alt="Logo"></a>
+                 </div>
+               </div>
+              </div>
+        </header><!-- header close -->
+        
+    <div class="container divExcursion">
+        <div class="recibirPortada row">
+           
+                <img class="listaimg" id="foto" alt="" src="">
+      
+            
+                <h1 id="nombreanimal"></h1>
+                
+                <h2 id="edad"></h2>
+               
+            
+            
+        </div> </div>
+        
+      
+
+</body>
